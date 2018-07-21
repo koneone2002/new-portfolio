@@ -1,0 +1,92 @@
+.jumbotron {
+    
+   
+    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/25937026477_4b7949e87d_o.jpg);  */
+    background-image: url(https://apod.nasa.gov/apod/image/1807/QuasarJetDrawing_DESY_3508.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    
+
+    
+    
+}
+/* .jumbotron2 {
+    width: 100%;
+    border: 1px solid pink;
+
+    
+    
+} */
+
+.jumbo-text {
+    font-size: 90px;
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    
+    
+}
+.card {
+    float: left;
+    border: 2px solid lightgrey;
+    margin: 35px 35px 15px 35px;
+
+   
+    
+}
+.containerOfLinks {
+    margin: 0 auto;
+}
+.card-img-top {
+    background-color: rgb(64, 19, 64);
+    width: 286px;
+    height: 180px;
+}
+#btn1 {
+    background-color: rgb(14, 54, 95); 
+}
+#btn2 {
+    background-color: rgb(8, 73, 98); 
+
+}
+#btn3 {
+    background-color: rgb(3, 18, 33); 
+}
+.btn {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 18px;
+    padding: 7px 15px;
+}
+h5 {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.icons {
+    display: inline; 
+    clear: both;
+    font-size: 40px;
+    color: rgb(100, 117, 109);
+    
+
+    
+}
+.fab, .fas {
+    
+   margin-left: 30px;
+    letter-spacing: 320px;
+    line-height: 100px;
+    color: rgb(100, 117, 109);
+    
+   
+    
+  
+}
+
+
+/* font-family: 'Scada', sans-serif;
+font-family: 'Lalezar', cursive;
+font-family: 'Asap Condensed', sans-serif; */
