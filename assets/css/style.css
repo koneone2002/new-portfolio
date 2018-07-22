@@ -30,9 +30,10 @@
     
 }
 .card {
-    float: left;
+    
+   float: left; 
     border: 2px solid lightgrey;
-    margin: 35px 35px 15px 35px;
+    margin: 80px;
 
    
     
@@ -66,10 +67,10 @@ h5 {
     padding-bottom: 30px;
 }
 .icons {
-    display: inline; 
+    /* display: inline;  */
     clear: both;
     font-size: 40px;
-    color: rgb(100, 117, 109);
+    color: white;
     
 
     
@@ -79,25 +80,83 @@ h5 {
    /* margin-left: 30px;
     letter-spacing: 320px; */
     line-height: 100px;
-    color: rgb(100, 117, 109);
+    color: white;
     
    
     
   
 }
+p {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
 
+}
 /* for the animation */
 body, html, .main {
     height: 100%;
 }
-section {
+/* section {
     min-height: 100%;
-}
+} */
 #myImage {
-    width: 200px;
-    float: left;
+  width: 200px; 
+   
+}
+.aboutMe {
+    border-bottom: 3px solid  rgb(100, 117, 109);
+    clear: both;
+    margin-bottom: 300px;
+   
+}
+.portfolio {
+    border-bottom: 3px solid  rgb(100, 117, 109);
+    /* margin-top: 40px; */
+   
+   
+
+}
+.containerForm {
+    padding: 20px;
+    margin-top: 200px;
+    border: 3px solid  rgb(100, 117, 109);
+}
+h2 {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+footer {
+   
+    width: 100%;
+    margin-top: 30px;
+
+    background-color: rgb(100, 117, 109);
+}
+.row {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
+h4 {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgb(100, 117, 109);
+}
+.porto {
+    margin-bottom: 40px;
+    width: 600px;
+    border-bottom: 3px solid  rgb(100, 117, 109);
+}
+.noPorto {
+    margin: 0;
+}
 /* font-family: 'Scada', sans-serif;
 font-family: 'Lalezar', cursive;
 font-family: 'Asap Condensed', sans-serif; */
