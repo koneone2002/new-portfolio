@@ -93,18 +93,18 @@ body, html, .main {
    
 }
 .aboutMe {
+ 
     border-bottom: 3px solid  rgb(100, 117, 109);
     clear: both;
     margin-bottom: 300px;
    
 }
 .portfolio {
-    border-bottom: 3px solid  rgb(100, 117, 109);
-
-   
-   
+    border-bottom: 3px solid  rgb(100, 117, 109); 
 
 }
+
+
 .containerForm {
     padding: 20px;
     margin-top: 200px;

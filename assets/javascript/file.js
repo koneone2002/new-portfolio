@@ -107,7 +107,7 @@ $(document).ready(function(){
      $("#yourName").val("");
      $("#yourEmail").val("");
      $("#yourMessage").val("");
-     $(".alert").show();
+    
   
    });
 
