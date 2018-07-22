@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Katie ONeill portfolio</title>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Lalezar|Scada" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
@@ -116,16 +117,30 @@
         <div class="trial">
             <div class="container portfolio1 main" id="section3">
                 <h2>Portfolio</h2>
-                <a href="https://koneone2002.github.io/the-space-above/" target="_blank">
-                    <img src="assets/images/image.png" class="porto">
-                </a>
-                <a href="https://koneone2002.github.io/GifTastic/" target="_blank">
-                    <img src="assets/images/giphy.png" class="porto">
-                </a>
-                <a href="https://koneone2002.github.io/TrainTracker/">
-                    <img src="assets/images/train.jpeg" class="porto">
-                </a>
-                <p class="noPorto">click to view!</p>
+                <div>
+                    
+                    <a href="https://koneone2002.github.io/the-space-above/" target="_blank"><img src="assets/images/image.png" class="porto">
+                        <a href="https://github.com/koneone2002/the-space-above" target="_blank"><i class="fab fa-github-square"></i></a>
+
+                </div>
+                <div>
+                    <a href="https://koneone2002.github.io/GifTastic/" target="_blank">
+                        <img src="assets/images/giphy.png" class="porto">
+                    </a>
+                   <a href="https://github.com/koneone2002/GifTastic" target="_blank"> <i class="fab fa-github-square"></i></a>
+
+                </div>
+
+                <div>
+                 
+                    <a href="https://koneone2002.github.io/TrainTracker/" target="_blank">
+                        <img src="assets/images/train.jpeg" class="porto">
+                    </a>
+                    <a href="https://github.com/koneone2002/TrainTracker" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <p class="noPorto">click to view!</p>
+
+                </div>
+              
             </div>
 
         </div>
@@ -141,18 +156,18 @@
                 <form>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Your Name...">
+                            <input type="text" id="yourName" class="form-control" placeholder="Your Name...">
                         </div>
                         <div class="col">
-                            <input type="email" class="form-control" placeholder="Your email...">
+                            <input type="email" id="yourEmail" class="form-control" placeholder="Your email...">
 
                         </div>
                         <div class="form-group col-md-12">
                             <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your message..."></textarea>
+                            <textarea class="form-control" id="yourMessage" rows="5" placeholder="Your message..."></textarea>
                         </div>
                     </div>
-                    <button class="btn btn-primary" id="add-train-btn" type="submit" style="background-color:rgb(100, 117, 109); color: white">Submit</button>
+                    <button class="btn btn-primary" id="add-email" type="submit" style="background-color:rgb(100, 117, 109); color: white">Submit</button>
                 </form>
 
             </div>

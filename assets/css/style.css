@@ -157,6 +157,12 @@ h4 {
 .noPorto {
     margin: 0;
 }
+.fa-github-square {
+    color: rgb(100, 117, 109);
+    font-size: 30px;
+    margin-left: 10px;
+}
+}
 /* font-family: 'Scada', sans-serif;
 font-family: 'Lalezar', cursive;
 font-family: 'Asap Condensed', sans-serif; */
