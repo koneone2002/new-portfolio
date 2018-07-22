@@ -77,6 +77,8 @@ $(document).ready(function(){
     });
   });
 
+  // submitting the form
+
   var config = {
     apiKey: "AIzaSyAIGW6oXu8vtDRhfyhobsSu4tyLOHD1vYk",
     authDomain: "my-portfolio-project-a39a6.firebaseapp.com",
@@ -105,7 +107,8 @@ $(document).ready(function(){
      $("#yourName").val("");
      $("#yourEmail").val("");
      $("#yourMessage").val("");
+     $(".alert").show();
   
    });
-   
+
  
