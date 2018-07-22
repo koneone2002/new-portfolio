@@ -1,24 +1,15 @@
 .jumbotron {
     
    
-    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/25937026477_4b7949e87d_o.jpg);  */
+    
     background-image: url(https://apod.nasa.gov/apod/image/1807/QuasarJetDrawing_DESY_3508.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     position: relative;
-    
 
-    
     
 }
-/* .jumbotron2 {
-    width: 100%;
-    border: 1px solid pink;
-
-    
-    
-} */
 
 .jumbo-text {
     font-size: 90px;
@@ -26,8 +17,7 @@
     font-family: 'Asap Condensed', sans-serif;
     margin-top: 100px;
     letter-spacing: 5px;
-    
-    
+
 }
 .card {
     
@@ -67,7 +57,7 @@ h5 {
     padding-bottom: 30px;
 }
 .icons {
-    /* display: inline;  */
+
     clear: both;
     font-size: 40px;
     color: white;
@@ -77,8 +67,7 @@ h5 {
 }
 .fab, .fas {
     
-   /* margin-left: 30px;
-    letter-spacing: 320px; */
+
     line-height: 100px;
     color: white;
     
@@ -111,7 +100,7 @@ body, html, .main {
 }
 .portfolio {
     border-bottom: 3px solid  rgb(100, 117, 109);
-    /* margin-top: 40px; */
+
    
    
 
@@ -162,7 +151,5 @@ h4 {
     font-size: 30px;
     margin-left: 10px;
 }
-}
-/* font-family: 'Scada', sans-serif;
-font-family: 'Lalezar', cursive;
-font-family: 'Asap Condensed', sans-serif; */
+
+
