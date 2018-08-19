@@ -23,7 +23,7 @@
     
    float: left; 
     border: 2px solid lightgrey;
-    margin: 80px;
+    margin-top: 80px;
 
    
     
@@ -124,11 +124,11 @@ footer {
 
     background-color: rgb(100, 117, 109);
 }
-.row {
+/* .row {
     width: 100%;
     margin: 0 auto;
     display: block;
-}
+} */
 
 h4 {
     font-family: 'Asap Condensed', sans-serif;
@@ -143,6 +143,7 @@ h4 {
     width: 600px;
     border-bottom: 3px solid  rgb(100, 117, 109);
 }
+
 .noPorto {
     margin: 0;
 }
