@@ -70,11 +70,16 @@ h5 {
 
     line-height: 100px;
     color: white;
-    
-   
-    
+
   
 }
+
+.fa-github-square {
+    color: white;
+    font-size: 24px;
+    
+}
+
 p {
     font-family: 'Asap Condensed', sans-serif;
     font-size: 24px;
@@ -148,10 +153,25 @@ h4 {
 .noPorto {
     margin: 0;
 }
-.fa-github-square {
-    color: rgb(100, 117, 109);
-    font-size: 30px;
-    margin-left: 10px;
+
+#forCarousel {
+    display: block;
+    margin: 0 auto;
+    
 }
+#section3 {
+   padding-top: 100px;
+}
+#section2 {
+    padding-top: 100px;
+ }
+ #specialGit {
+     line-height: 0;
+ }
+
+
+
+ 
+
 
 
