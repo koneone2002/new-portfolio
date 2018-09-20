@@ -21,7 +21,7 @@
 }
 .card {
     
-   float: left; 
+   margin: auto;
     border: 2px solid lightgrey;
     margin-top: 80px;
 
@@ -87,7 +87,7 @@ p {
 
 }
 /* for the animation */
-body, html, .main {
+body, html, {
     height: 100%;
 }
 /* section {
@@ -99,21 +99,20 @@ body, html, .main {
 }
 .aboutMe {
  
-    border-bottom: 3px solid  rgb(100, 117, 109);
+    margin-top: 180px;
     clear: both;
-    margin-bottom: 300px;
+    margin-bottom: 600px;
    
 }
-.portfolio {
-    border-bottom: 3px solid  rgb(100, 117, 109); 
 
-}
 
 
 .containerForm {
     padding: 20px;
-    margin-top: 200px; 
+    margin-top: 400px; 
+    margin-bottom: 200px;
     border: 3px solid  rgb(100, 117, 109);
+    
 }
 
 h2 {
@@ -123,13 +122,7 @@ h2 {
     margin-bottom: 30px;
 
 }
-footer {
-   
-    width: 100%;
-    margin-top: 30px;
 
-    background-color: rgb(100, 117, 109);
-}
 /* .row {
     width: 100%;
     margin: 0 auto;
@@ -142,12 +135,12 @@ h4 {
     margin-top: 30px;
     margin-bottom: 50px;
     padding-bottom: 30px;
-    border-bottom: 3px solid rgb(100, 117, 109);
+    
 }
 .porto {
     margin-bottom: 40px;
     width: 600px;
-    border-bottom: 3px solid  rgb(100, 117, 109);
+    
 }
 
 .noPorto {
@@ -170,8 +163,38 @@ h4 {
  }
 
 
+ h1 {
+    font-family: 'Asap Condensed', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    color: red;
+     
+ }
 
- 
+ .typeDiscriptor {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+   
+
+}
+.about {
+    margin: 500px 0 600px 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(100, 117, 109);
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+} 
+
 
 
 
